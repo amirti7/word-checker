@@ -1,0 +1,23 @@
+.squares {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.square {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ccc;
+  margin: 0 5px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s;
+  background: #fff;
+}
+.square.green {
+  border-color: #4caf50;
+}
+.square.red {
+  border-color: #f44336;
+} 

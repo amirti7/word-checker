@@ -1,0 +1,32 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.keyboard-row {
+  display: flex;
+  gap: 10px;
+}
+.key-btn {
+  min-width: 60px;
+  min-height: 48px;
+  background: #e0e3e7;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.key-btn:active {
+  background: #bdbdbd;
+}
+.key-btn:hover:not(:disabled) {
+  background: #90caf9;
+}
+.key-btn:disabled {
+  background: #eeeeee;
+  color: #bdbdbd;
+  cursor: not-allowed;
+} 
